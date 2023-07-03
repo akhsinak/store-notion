@@ -1,0 +1,58 @@
+button {
+  background-color: rgb(0, 108, 56);
+  color: white;
+  margin: 5px;
+  padding: 2px;
+  /* border: 2px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+  /* box-shadow: ; */
+  -webkit-box-shadow: 25px 10px 64px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 25px 10px 64px -18px rgba(0, 0, 0, 0.75);
+  box-shadow: 25px 10px 64px -18px rgba(0, 0, 0, 0.75);
+  width: 60px;
+}
+
+h2 {
+  color: black;
+  /* border: 2px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+form {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  /* border: 2px solid yellow; */
+  flex-direction: column;
+}
+label {
+  color: black;
+  font-weight: bold;
+  /* border: 2px solid red; */
+  padding-left: 3px;
+}
+
+.pophead {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-bottom: 5px;
+}
+img {
+  width: 20%;
+  height: auto;
+  margin-right: 5px;
+  margin-left: 2px;
+}
+.popdown {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: center;
+  margin-top: 4px;
+  /* align-items: top; */
+}

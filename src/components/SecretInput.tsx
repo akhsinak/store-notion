@@ -10,7 +10,14 @@ const SecretInput = (props: SecretInputProps) => {
   const { name, value, onChange } = props;
 
   return (
-    <input type="text" name={name} value={value} onChange={onChange} required />
+    <input
+      type="text"
+      name={name}
+      value={value}
+      onChange={onChange}
+      required
+      style={{ margin: "3px" }}
+    />
   );
 };
 
