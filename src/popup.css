@@ -30,12 +30,16 @@ form {
   justify-content: center;
   /* border: 2px solid yellow; */
   flex-direction: column;
+  background: rgba(200, 200, 200, 0.5);
+  backdrop-filter: blur(10px);
 }
 label {
   color: black;
   font-weight: bold;
   /* border: 2px solid red; */
   padding-left: 3px;
+  font-size: 14px;
+  margin-top: 3px;
 }
 
 .pophead {

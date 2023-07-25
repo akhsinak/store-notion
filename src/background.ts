@@ -1,6 +1,5 @@
 import { Client } from "@notionhq/client";
 import { CreatePageParameters } from "@notionhq/client/build/src/api-endpoints";
-import { removeHyphen } from "./libs/utils";
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({

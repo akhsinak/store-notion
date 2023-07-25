@@ -4,7 +4,7 @@ import { crx, defineManifest } from "@crxjs/vite-plugin";
 
 const manifest = defineManifest({
   manifest_version: 3,
-  name: "notiord",
+  name: "StoreNotion",
   version: "0.1.0",
   permissions: ["storage", "contextMenus"],
   commands: {
@@ -26,6 +26,9 @@ const manifest = defineManifest({
     type: "module",
   },
   host_permissions: ["https://*/*"],
+  // icons: {
+  //   16: "/save_icon.svg",
+  // },
 });
 
 export default defineConfig({

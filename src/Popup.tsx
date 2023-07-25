@@ -10,7 +10,7 @@ const Popup = () => {
     <form onSubmit={onSubmit}>
       <div className="pophead">
         <img src={icon}></img>
-        <h2>NotionSave</h2>
+        <h2>StoreNotion</h2>
       </div>
       <label>DATABASE ID</label>
       <SecretInput name="dbId" value={dbId} onChange={handleInput} />
@@ -19,7 +19,9 @@ const Popup = () => {
       {/* <p>Ctrl + Shift + N : open setting popup</p> */}
       <div className="popdown">
         <button type="submit">SAVE</button>
-        <button onClick={reset}>RESET</button>
+        <button onClick={reset} className="resetbtn">
+          RESET
+        </button>
       </div>
     </form>
   );

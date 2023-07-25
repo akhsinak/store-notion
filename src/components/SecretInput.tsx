@@ -16,7 +16,7 @@ const SecretInput = (props: SecretInputProps) => {
       value={value}
       onChange={onChange}
       required
-      style={{ margin: "3px" }}
+      style={{ margin: "3px", height: "22px", border: "1px solid grey" }}
     />
   );
 };
