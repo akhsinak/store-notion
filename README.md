@@ -15,7 +15,6 @@
 <!-- ## 使い方 -->
 
 ```
-git clone https://github.com/yu1hpa/notiord.git && cd notiord
 yarn install && yarn build
 ```
 
